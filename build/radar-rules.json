@@ -4574,6 +4574,14 @@
           "/"
         ],
         "target": "/gocn"
+      },
+      {
+        "title": "招聘",
+        "docs": "https://docs.rsshub.app/programming.html#GoCN",
+        "source": [
+          "/"
+        ],
+        "target": "/gocn/jobs"
       }
     ]
   },
@@ -8048,6 +8056,29 @@
       {
         "title": "Exhibitions",
         "docs": "https://docs.rsshub.app/en/travel.html#the-jewish-museum"
+      }
+    ]
+  },
+  "jiemian.com": {
+    "_name": "界面新闻",
+    ".": [
+      {
+        "title": "快报",
+        "docs": "https://docs.rsshub.app/traditional-media.html#jie-mian-xin-wen-kuai-bao",
+        "source": [
+          "/list/:id",
+          "/"
+        ],
+        "target": "/jiemian"
+      },
+      {
+        "title": "栏目",
+        "docs": "https://docs.rsshub.app/traditional-media.html#jie-mian-xin-wen-lan-mu",
+        "source": [
+          "/list/:id",
+          "/"
+        ],
+        "target": "/jiemian/list/:id"
       }
     ]
   },
@@ -12247,6 +12278,19 @@
       }
     ]
   },
+  "studygolang.com": {
+    "_name": "Go 语言中文网",
+    ".": [
+      {
+        "title": "招聘",
+        "docs": "https://docs.rsshub.app/programming.html#go-yu-yan-zhong-wen-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/studygolang/jobs"
+      }
+    ]
+  },
   "subhd.tv": {
     "_name": "Sub HD",
     ".": [
@@ -12644,6 +12688,83 @@
           "/:id",
           "/"
         ]
+      }
+    ]
+  },
+  "thenewslens.com": {
+    "_name": "The News Lens 關鍵評論",
+    ".": [
+      {
+        "title": "最新",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/latest-article/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/latest-article/:sort?"
+      },
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/news/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/news/:sort?"
+      },
+      {
+        "title": "作者",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/author/:id/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/author/:id/:sort?"
+      },
+      {
+        "title": "分类",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/category/:id/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/category/:id/:sort?"
+      },
+      {
+        "title": "标签",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/tag/:id/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/tag/:id/:sort?"
+      },
+      {
+        "title": "频道",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/channel/:id/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/channel/:id/:sort?"
+      },
+      {
+        "title": "评论",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/review/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/review/:sort?"
+      },
+      {
+        "title": "影音",
+        "docs": "https://docs.rsshub.app/new-media.html#the-news-lens-guan-jian-ping-lun",
+        "source": [
+          "/videos/Projects/:sort?",
+          "/"
+        ],
+        "target": "/thenewslens/videos/Projects/:sort?"
       }
     ]
   },
@@ -13180,6 +13301,20 @@
           "/"
         ],
         "target": "/portal"
+      }
+    ]
+  },
+  "tvb.com": {
+    "_name": "无线新闻",
+    ".": [
+      {
+        "title": "新闻",
+        "docs": "https://docs.rsshub.app/traditional-media.html#wu-xian-xin-wen-xin-wen",
+        "source": [
+          "/:language/:category",
+          "/"
+        ],
+        "target": "/tvb/news/:category?/:language?"
       }
     ]
   },
