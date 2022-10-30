@@ -3051,6 +3051,20 @@
       }
     ]
   },
+  "comicskingdom.com": {
+    "_name": "Comics Kingdom",
+    ".": [
+      {
+        "title": "Archive",
+        "docs": "https://docs.rsshub.app/anime.html#comics-kingdom",
+        "source": [
+          "/:name/*",
+          "/:name"
+        ],
+        "target": "/comicskingdom/:name"
+      }
+    ]
+  },
   "consumer.org.hk": {
     "_name": "消费者委员会",
     ".": [
@@ -10463,8 +10477,19 @@
       }
     ]
   },
+  "hoyoverse.com": {
+    "_name": "米哈游",
+    "genshin": [
+      {
+        "title": "原神 - 新闻",
+        "docs": "https://docs.rsshub.app/game.html##mi-ha-you",
+        "source": "/:location/news",
+        "target": "/mihoyo/ys/:location"
+      }
+    ]
+  },
   "mihoyo.com": {
-    "_name": "米游社v2",
+    "_name": "米哈游",
     "bbs": [
       {
         "title": "米游社 - 官方公告",
@@ -10477,6 +10502,14 @@
           "/:game/home/53",
           "/:game/home/58"
         ]
+      }
+    ],
+    "ys": [
+      {
+        "title": "原神 - 新闻",
+        "docs": "https://docs.rsshub.app/game.html##mi-ha-you",
+        "source": "/:location/news/:category",
+        "target": "/mihoyo/ys/:location/:category"
       }
     ]
   },
@@ -11825,6 +11858,20 @@
           "/:type/list.htm",
           "/:grade/:type/list.htm"
         ]
+      }
+    ]
+  },
+  "njxzc.edu.cn": {
+    "_name": "南京晓庄学院",
+    "www": [
+      {
+        "title": "通知公告",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-xiao-zhuang-xue-yuan-tong-zhi-gong-gao",
+        "source": [
+          "/89/list.htm",
+          "/"
+        ],
+        "target": "/njxzc/tzgg"
       }
     ]
   },
@@ -13612,6 +13659,20 @@
       }
     ]
   },
+  "sctv.com": {
+    "_name": "四川广播电视台",
+    ".": [
+      {
+        "title": "电视回放",
+        "docs": "https://docs.rsshub.app/traditional-media.html#si-chuan-guang-bo-dian-shi-tai-dian-shi-hui-fang",
+        "source": [
+          "/column/list",
+          "/column/detail",
+          "/"
+        ]
+      }
+    ]
+  },
   "scvtc.edu.cn": {
     "_name": "四川职业技术学院",
     ".": [
@@ -14076,6 +14137,52 @@
           "/zh/news.html"
         ],
         "target": "/slowmist/:type?"
+      }
+    ]
+  },
+  "smzdm.com": {
+    "_name": "什么值得买",
+    "post": [
+      {
+        "title": "好文",
+        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
+        "source": "/:day"
+      },
+      {
+        "title": "好文分类",
+        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
+        "source": [
+          "/fenlei/:name"
+        ],
+        "target": "/smzdm/haowen/fenlei/:name"
+      }
+    ],
+    "search": [
+      {
+        "title": "关键词",
+        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
+        "source": "/"
+      }
+    ],
+    "www": [
+      {
+        "title": "排行榜",
+        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
+        "source": "/top"
+      }
+    ],
+    "zhiyou": [
+      {
+        "title": "用户文章",
+        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
+        "source": "/member/:uid/article",
+        "target": "/smzdm/article/:uid"
+      },
+      {
+        "title": "用户爆料",
+        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
+        "source": "/member/:uid/baoliao",
+        "target": "/smzdm/baoliao/:uid"
       }
     ]
   },
@@ -17885,23 +17992,6 @@
           "/profile/:uid"
         ],
         "target": "/weibo/user/:uid"
-      }
-    ]
-  },
-  "smzdm.com": {
-    "_name": "什么值得买",
-    "www": [
-      {
-        "title": "排行榜",
-        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
-        "source": "/top"
-      }
-    ],
-    "search": [
-      {
-        "title": "关键词",
-        "docs": "https://docs.rsshub.app/shopping.html#shen-me-zhi-de-mai",
-        "source": "/"
       }
     ]
   },
